@@ -66,17 +66,135 @@ nav {
     align-items: center;
     margin-top: 100px;
     margin-bottom: 15px;
-    margin-left: 200px;
+    margin-left: 150px;
 }
 
-.search-content{
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
+
+/*Interactive Content */
+
+.search-content input{
+    background: #ffffff;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 0px 0px 8px 8px;
+
+    font-size: 12px;
+    text-align: left;
+    line-height: 42px;
+    border: 0;
+    padding: 12px 250px;
+    margin-top: 10px;
 }
 
-.btn-content{
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 200px;
+.uploadbutton{
+    position: absolute;
+    width: 150px;
+    height: 63px;
+    left: 200px;
+    top: 375px;
+
+    background: #E5E5E5;
+    border-radius: 20px;
+}
+
+.uploadbutton li a{
+    width: 140px;
+    height: 30px;
+    left: 300px;
+    top: 400px;
+
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+
+.searchbutton {
+    position: absolute;
+    width: 158px;
+    height: 63px;
+    left: 600px;
+    top: 375px;
+
+    background: #5383EC;
+    border-radius: 20px;
+}
+
+.searchbutton li a{
+    width: 159px;
+    height: 33px;
+    left: 813px;
+    top: 400px;
+
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+/*Upload*/
+
+body p{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 48px;
+    text-align: left;
+    letter-spacing: 0.02em;
+    margin-left: 10px;
+
+}
+
+body form input{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 48px;
+    text-align: left;
+    letter-spacing: 0.02em;
+    margin-left: 10px;
+}
+
+/* Search */
+.searchbutton-job {
+    width: 158px;
+    height: 63px;
+    top: 10px;
+
+    background: #5383EC;
+    border-radius: 20px;
+}
+
+.searchbutton-job li a{
+    width: 159px;
+    height: 33px;
+    left: 813px;
+    top: 400px;
+
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #000000;
 }
