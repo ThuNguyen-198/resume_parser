@@ -7,11 +7,13 @@ import { HttpClientModule } from "@angular/common/http";
 import { JobsComponent } from './jobs/jobs.component';
 
 import { MatCardModule } from '@angular/material/card';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    JobsComponent
+    JobsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
