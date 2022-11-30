@@ -1,4 +1,7 @@
 export interface Job {
-    id: String,
-    title: String
+    companyName: string,
+    jobTitle: string,
+    jobID: string,
+    jobDescription: string,
+    match: number
 }

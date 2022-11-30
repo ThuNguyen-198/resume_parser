@@ -1,0 +1,18 @@
+<mat-card>
+    <mat-form-field appearance="fill">
+        <input matInput placeholder="Company Name" [(ngModel)]="companyName">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        <input matInput placeholder="Job Title" [(ngModel)]="jobTitle">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        <input matInput placeholder="Job ID" [(ngModel)]="jobID">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        <input matInput placeholder="Job Description" [(ngModel)]="jobDescription">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        <input matInput placeholder="Match" [(ngModel)]="match">
+    </mat-form-field>
+    <button color="accent" (click)="onAddJob()">Add Job</button>
+</mat-card>
