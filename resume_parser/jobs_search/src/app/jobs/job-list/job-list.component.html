@@ -1,7 +1,7 @@
-<ul *ngFor="let job of jobs">
-    <li>company name: {{job.companyName}}</li>
-    <li>job Title: {{job.jobTitle}}</li>
-    <li>job ID: {{job.jobID}}</li>
-    <li>job description: {{job.jobDescription}}</li>
-    <li>number of matchings: {{job.match}}</li>
-</ul>
+<div *ngFor="let job of jobs">
+    <p class="company-name">company name: {{job.companyName}}</p>
+    <p class="job-title">job Title: {{job.jobTitle}}</p>
+    <p class="company-name">job ID: {{job.jobID}}</p>
+    <p class="company-name">job description: {{job.jobDescription}}</p>
+    <p class="company-name">number of matchings: {{job.match}}</p>
+</div>
