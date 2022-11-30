@@ -32,7 +32,8 @@ import { HomeComponent } from './home/home.component';
     MatFormFieldModule,
     MatInputModule,
     FormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
